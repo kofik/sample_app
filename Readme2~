@@ -2,6 +2,4 @@ Here is the related project from
 https://github.com/railstutorial/sample_app_rails_4
 I do not clone it by i refer to the book of the author to write mine with 
 the specification of my system dependencies
-The use of: 
-rails new myappl --database=yourdb 
-help for db configuration in your Gemfile
+
