@@ -5,3 +5,13 @@ the specification of my system dependencies
 The use of: 
 rails new myappl --database=yourdb 
 help for db configuration in your Gemfile
+
+Error 404 page message should work after changing the line of production.rb located in config/environments/production.rb from
+config.assets.compile = false
+to
+config.assets.compile = true
+
+heroku run rake db:setup
+and then
+heroku rake db:migrate
+I had migrated before, but hadn't done the setup first.

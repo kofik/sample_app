@@ -49,11 +49,12 @@ end
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara'
-end
+end 
 
 gem 'rails', '4.1.1'
 #gem 'sass-rails', '4.0.1'
 gem 'sass-rails', '~> 4.0.3'
+gem 'heroku'
 gem 'uglifier', '>= 1.3.0'
 #gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '~> 4.0.0'
@@ -71,8 +72,9 @@ group :doc do
 end
 
 group :production do
-  gem 'pg'
-  gem 'rails_12factor' 
+  #gem 'pg', '0.15.1'
+  gem 'pg' 
+  gem 'rails_12factor', '0.0.2'
 end
 
 
