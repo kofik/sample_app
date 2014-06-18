@@ -10,3 +10,12 @@ Error 404 page message should work after changing the line of production.rb loca
 config.assets.compile = false
 to
 config.assets.compile = true
+
+bin/rake db:migrate to be run in case of loading page error
+
+heroku run rake db:setup
+and then
+heroku rake db:migrate
+I had migrated before, but hadn't done the setup first.
+
+config.include Capybara::DSL to be add in spec/spec_helper.rb after (RSpec.configure do |config| ..and ..  end )

@@ -11,7 +11,13 @@ config.assets.compile = false
 to
 config.assets.compile = true
 
+bin/rake db:migrate to be run in case of loading page error
+for dependencies test running do it in command line
+bin/rake db:migrate RAILS_ENV=test
+
 heroku run rake db:setup
 and then
 heroku rake db:migrate
 I had migrated before, but hadn't done the setup first.
+
+config.include Capybara::DSL to be add in spec/spec_helper.rb after (RSpec.configure do |config| ..and ..  end )
