@@ -52,6 +52,11 @@ GEM
     erubis (2.7.0)
     excon (0.37.0)
     execjs (2.2.0)
+    factory_girl (4.2.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.2.0)
+      factory_girl (~> 4.2.0)
+      railties (>= 3.0.0)
     ffi (1.9.3)
     heroku (3.8.4)
       heroku-api (~> 0.3.17)
@@ -173,10 +178,12 @@ PLATFORMS
 
 DEPENDENCIES
   actionmailer
+  activesupport
   bcrypt-ruby
   bootstrap-sass
   capybara
   coffee-rails (~> 4.0.0)
+  factory_girl_rails
   heroku (= 3.8.4)
   jbuilder (~> 2.0)
   jquery-rails
