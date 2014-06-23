@@ -5,7 +5,6 @@ group :development, :test do
   gem 'spring'
   gem 'rspec-rails', '2.13.1'
   gem 'rconsole' 
-  #gem 'sqlite3', '1.3.8'
   #gem 'rconsole', '~> 0.1.0'
 end
 
@@ -29,6 +28,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'therubyracer'
 
 group :doc do
   gem 'sdoc', '~> 0.4.0', require: false
