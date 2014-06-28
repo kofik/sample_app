@@ -5,7 +5,7 @@ group :development, :test do
   gem 'spring'
   gem 'rspec-rails', '2.13.1'
   gem 'rconsole' 
-  #gem 'rconsole', '~> 0.1.0'
+  gem 'guard-rspec'
 end
 
 group :test do
@@ -29,6 +29,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'therubyracer'
+gem 'minitest'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+gem 'angularjs-rails'
 
 group :doc do
   gem 'sdoc', '~> 0.4.0', require: false
