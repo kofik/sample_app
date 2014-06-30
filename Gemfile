@@ -18,7 +18,7 @@ end
 gem 'actionmailer'
 gem 'activesupport'
 gem 'rails', '4.1.1'
-gem 'bcrypt-ruby'
+gem 'bcrypt'
 gem 'sass-rails', '~> 4.0.3'
 gem 'bootstrap-sass' 
 gem 'sprockets'
